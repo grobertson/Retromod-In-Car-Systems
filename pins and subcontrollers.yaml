@@ -1,0 +1,46 @@
+Input pins:
+#Basic interior and control plane status
+    digital:
+    - door R
+    - door L
+    - lights Parking
+    - lights Low
+    - lights High
+    - lights Flash to pass
+    - lights Emergency Flashers
+    - lights fog 1
+    - lights fog 2
+    - lights drive 1
+    - lights drive 2
+    - controls reverse 
+    - controls turn R 
+    - controls turn L
+    - controls Brake main
+    - controls Brake emergency
+    - controls overdrive button
+    - key position ACC
+    - key position run
+    - key position start
+    - wiper slow
+    - wiper fast
+    - Rear defogger
+    - Seatbelt warn
+
+    A/d:
+    - lights dimmer level
+
+Auto systems inputs
+
+A/d
+- 12v system voltage
+- 5v system voltage
+- Fuel level sender
+- Coolant temperature sender
+
+
+Bool:
+- Oil pressure idiot switch
+- overdrive solenoid engaged
+Pwm/digital:
+- tachometer pulse
+- speedo pulse? 
